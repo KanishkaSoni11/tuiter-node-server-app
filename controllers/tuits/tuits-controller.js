@@ -10,6 +10,12 @@ const createTuit = (req, res) => {
     newTuit._id = (new Date()).getTime() + '';
     newTuit.likes = 0;
     newTuit.liked = false;
+    newTuit.disliked = false;
+    newTuit.dislikes = 0;
+    newTuit.handle = "@kanishkasoni"
+    newTuit.time = "1s"
+    newTuit.image = "alice.jpeg"
+    newTuit.topic = "New Tuit"
     tuits.push(newTuit);
     res.json(newTuit);
 }
