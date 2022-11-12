@@ -10,7 +10,9 @@ export default [{
     "liked": true,
     "likes": 2345,
     "replies": 123,
-    "retuits": 432
+    "retuits": 432,
+    "disliked" : false,
+    "dislikes" : 1234
 }, {
     "_id": "234",
     "topic": "Traffic",
@@ -23,5 +25,7 @@ export default [{
     "liked": true,
     "likes": 2345,
     "replies": 123,
-    "retuits": 432
+    "retuits": 432,
+    "disliked" : false,
+    "dislikes" : 2344
 },];
