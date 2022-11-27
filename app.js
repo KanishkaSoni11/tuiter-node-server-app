@@ -1,5 +1,11 @@
 import express from 'express';
 import cors from 'cors'
+import mongoose from "mongoose";
+
+
+
+const CONNECTION_STRING = 'mongodb+srv://tuiter-webdev:RBh3Fcl4B6rQG5vG@cluster0.exypbxw.mongodb.net/tuiter?retryWrites=true&w=majority'
+mongoose.connect(CONNECTION_STRING);
 
 import HelloController from "./controllers/hello-controller.js";
 import UserController from "./controllers/users/users-controller.js";
